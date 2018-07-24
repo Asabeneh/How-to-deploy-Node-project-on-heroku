@@ -1,0 +1,27 @@
+{
+    "name": "crud-app",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "start": "node server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "engines": {
+        "node": "10.6.0" 
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.18.3",
+        "ejs": "^2.6.1",
+        "express": "^4.16.3",
+        "express-fileupload": "^0.4.0",
+        "formidable": "^1.2.1",
+        "mongodb": "^3.1.1",
+        "mongoose": "^5.2.3"
+    }
+}
+
+// the start has to be set to node 
+// the engine has to be node and version
