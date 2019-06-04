@@ -2,7 +2,7 @@
 
 . Follow the following steps:
 
-1. Create account by signing up on herok website:https://www.heroku.com/
+1. Create a Heroku account by signing up on herok website:https://www.heroku.com/
 2. Install the Heroku CLI on your machine:https://devcenter.heroku.com/articles/heroku-cli
 3. After installing Heroku CLI, login using the Heroku CLI by typing the following command:
 
@@ -21,7 +21,7 @@
 
 Check the package.json file
 
-5. Initiate your project using git init
+6. Initiating your project using git init and deploying on herkou
 
 ```sh
     git init
@@ -32,4 +32,4 @@ Check the package.json file
     heroku open
 ```
 
-Congratulations! Now you project is running on Heroku web server
+CONGRATULATONS! Now you project is running on Heroku web server
