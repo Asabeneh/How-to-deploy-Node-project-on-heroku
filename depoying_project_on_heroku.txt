@@ -1,8 +1,0 @@
-1. Create account by signing up on herok website:https://www.heroku.com/
-2. Install the Heroku CLI on your machine:https://devcenter.heroku.com/articles/heroku-cli
-3. Login using CLI by typing this command: heroku login
-4. Provide the credential you used to sign up on Heroku. Now your machine can push to heroku server.
-5.Push your latest project on github 
-6.write this command: heroku create
-7.git push heroku
-
