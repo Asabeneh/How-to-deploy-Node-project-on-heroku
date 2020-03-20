@@ -3,14 +3,14 @@
 #### Follow the following steps:
 
 1. Create a Heroku account by signing up on herok website:https://www.heroku.com/
-2. Install the Heroku CLI on your machine:https://devcenter.heroku.com/articles/heroku-cli
+2. Install the Heroku CLI on your computer:https://devcenter.heroku.com/articles/heroku-cli
 3. After installing Heroku CLI, login using the Heroku CLI by typing the following command:
 
 ```sh
     heroku login
 ```
 
-4. Provide the credential you used to sign up on Heroku if it asks. Now your project can be push to heroku server using git from your computer terminal
+4. Provide the credential you used to sign up on Heroku if it asks. Now your project can be pushed to heroku server using git from your computer terminal
 5. The package.json scripts should have scripts and the "start" should be the "node sever.js". As shown below
 
 ```js
@@ -18,8 +18,6 @@
         "start": "node server.js"
     }
 ```
-
-Check the package.json file
 
 6. Initiating your project using git init and deploying on herkou
 
