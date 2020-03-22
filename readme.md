@@ -25,7 +25,7 @@
     git init
     git add .
     git commit -m "ready to deploy on heroku"
-    heroku create
+    heroku create your-app-name
     git push heroku master
     heroku open
 ```
