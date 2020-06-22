@@ -1,10 +1,12 @@
-# How to deploy your node.js project on Heroku
+# Deploying node app  on Heroku
 
-#### Follow the following steps:
+First create a simple node.js application, if you don't have a node application you can try this [demo](https://meen-app-on-heroku.herokuapp.com/) application. To run the demo application you need to connect it with your MongoDB database.
+
+## Follow the following steps:
 
 1. Create a Heroku account by signing up on herok website:https://www.heroku.com/
 2. Install the Heroku CLI on your computer:https://devcenter.heroku.com/articles/heroku-cli
-3. After installing Heroku CLI, login using the Heroku CLI by typing the following command:
+3. After installing Heroku CLI, login using the Heroku CLI by typing the following command on command prompt or terminal:
 
 ```sh
     heroku login
@@ -19,7 +21,7 @@
     }
 ```
 
-6. Initiating your project using git init and deploying on herkou
+6. Initiating your project using git,  init and deploying on herkou
 
 ```sh
     git init
@@ -30,4 +32,5 @@
     heroku open
 ```
 
-CONGRATULATONS! Now you project is running on Heroku web server
+CONGRATULATONS!  
+ Now you project is running on Heroku web server
