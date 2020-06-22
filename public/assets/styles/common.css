@@ -1,0 +1,128 @@
+/* === GENERAL === */
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --font-family-heading: 'Oswald',
+        serif;
+    ;
+    --font-family-body: 'Cardo',
+        sans-serif;
+    ;
+    --background-body: rgba(226, 214, 214, 0.1);
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background: var(--background-body);
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: var(--font-family-body);
+   
+}
+
+.header-wrapper,
+.main-wrapper,
+.footer-wrapper {
+    margin: auto;
+    width: 80%;
+
+}
+
+/* === app wrapper === */
+.wrapper {
+    min-height: 100%;
+    position: relative;
+    letter-spacing: 1.25px;
+}
+
+/* === HEADER === */
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    background: rgb(37, 36, 36);
+    /* background: salmon; */
+    /* background: pink; */
+    color: white;
+    min-height: 1px;
+    font-size: 130%;
+
+    background-color: #3B2F63;
+    background-image: radial-gradient(circle at 50% top, rgba(84,90,182,0.6) 0%, rgba(84,90,182,0) 75%),radial-gradient(circle at right top, #794aa2 0%, rgba(121,74,162,0) 57%);
+    background-repeat: no-repeat;
+    background-size: 100% 1000px;
+    color: #c7b8d8;
+
+}
+
+/* === MAIN === */
+main {
+    padding: 15px 0;
+    padding-bottom: 150px;
+    font-size: 130%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-family-heading);
+    font-weight: 300;
+    /* text-transform: uppercase; */
+}
+
+p {
+    font-family: var(--font-family-body);
+    font-weight: 300;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul li a {
+    color: white;
+    font-family: 'Montserrat',
+        sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+/* 
+=== TITLES ===
+ */
+.page-title {
+    background: rgba(48, 47, 47, 0.9);
+    /* background: #444; */
+    margin: 25px auto;
+    padding: 10px;
+    color: white;
+    font-weight: 100;
+    border-radius: 2px;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    background: #f0f0f0;
+ color:#666;
+
+
+
+}
+
+.page-title:hover {
+    color: #444;
+
+}

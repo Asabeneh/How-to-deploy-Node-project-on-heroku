@@ -1,0 +1,27 @@
+/* ICONS */
+.icons>a {
+    display: inline-block;
+    width: 50%;
+}
+
+.fa-trash-alt,
+.fa-edit {
+    font-size: 28px;
+    color: #794aa2;
+}
+
+.fa-edit:hover {
+    color: rgb(113, 187, 247);
+}
+
+.fa-trash-alt:hover {
+    color: rgb(236, 112, 99);
+}
+
+.icons {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+}

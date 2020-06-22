@@ -1,0 +1,88 @@
+<%- include('../partials/head') %>
+
+<body>
+    <div class="wrapper">
+
+
+        <header>
+            <div class="header-wrapper">
+                <%- include('../partials/navbar') %>
+                <h3 class="page-title">About Express</h3>
+            </div>
+
+        </header>
+
+        <main>
+            <div class="main-wrapper">
+                <section>
+                    <h4> <a href="#introduction" class="link">#</a> Introduction</h4>
+                    <article id="introduction">
+                        <p>MEEN stands for MongoDB, Express, EJS and Node. MEEN is an example application to teach
+                            students how
+                            to use Node, Express, MongoDB, Mongoose
+                            and EJS. In this application
+                            Creating, Reading, Updating and Deleting (CRUD) operations are implemented. By
+                            building this application, students will
+                            learn:</p>
+                        <ul class="ul-list">
+                            <li class="list">How to use node core modules</li>
+                            <li class="list">How to export and import costume modules</li>
+                            <li class="list">How to route using different request methods</li>
+                            <li class="list">How to use different middleware
+                            <li class="list">How to serve static files</li>
+                            <li class="list">How to create model schema using mongoose</li>
+                            <li class="list">How to store data in mongoDB</li>
+                            <li class="list">How to render data to UI using AN ejs templating engine</li>
+                        </ul>
+
+                    </article>
+                </section>
+                <section>
+                    <h4><a href="#about-express" class="link">#</a> Express</h4>
+                    <article id="about-express">
+                        <p>
+                            Express is a minimal and flexible Node.js web application framework that provides a
+                            robust set of features for web and
+                            mobile applications.
+                        </p>
+
+                    </article>
+                </section>
+                <section>
+                    <h4> <a href="#packages" class="link">#</a> Necessary packages to build this application:
+                    </h4>
+                    <article id="packages">
+                        <pre> $ yarn add express</pre>
+                        <pre> $ yarn add body-parser</pre>
+                        <pre> $ yarn add mongoose </pre>
+                        <pre> $ yarn add ejs </pre>
+                        <pre> $ yarn add dotenv </pre>
+
+                    </article>
+                </section>
+                <section>
+                    <h4> <a href="#express-website" class="link">#</a> Check out the official website to learn
+                        more about Express:</h4>
+                    <article>
+                        <p>ExpressJS official website <a href="https://expressjs.com/" class="link"
+                                target="_blank">Express</a></p>
+
+                    </article>
+                </section>
+                <section>
+                    <h4> <a href="#github" class="link">#</a> Source code of this application is on github:</h4>
+                    <article>
+                        <p>Check the code on <a href="https://github.com/Asabeneh/express-app" class="link"
+                                target="_blank">github</a></p>
+                    </article>
+                </section>
+            </div>
+
+        </main>
+        <%- include('../partials/footer') %>
+
+    </div>
+
+</body>
+
+</html>

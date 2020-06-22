@@ -2,7 +2,7 @@
   "name": "node-app",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
@@ -11,8 +11,9 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
-    "ejs": "^2.6.1",
-    "express": "^4.16.3",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
     "mongoose": "^5.2.3"
   }
 }

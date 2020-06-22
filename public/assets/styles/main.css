@@ -1,0 +1,134 @@
+img {
+    display: block;
+    max-width: 15%;
+    min-width: 15%;
+    width: 100%;
+    height: auto;
+    margin: 15px auto;
+}
+
+.web-techs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.web_techs__title {
+    text-align: center;
+    padding: 15px 0;
+}
+
+.web-tech__images {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.student,
+.single-student {
+    margin: 25px 0;
+    padding: 10px;
+}
+
+.student p {
+    margin: 0;
+    padding: 0;
+}
+
+.student {
+    padding:50px;
+    background:  #c7b8d8;
+    color: white;
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.1);
+     box-shadow:  3px 5px 6px #ccc;
+      box-shadow: 0  5px 15px rgba(59, 43, 91, 0.7);;
+     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    transition: background-color 0.5s ease;
+    /* background: orange; */
+}
+
+.student:hover {
+    background:rgb(192, 162, 226);
+      box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+.bio {
+    border: 1px solid rgb(247, 240, 240);
+    font-weight: 300;
+    padding: 25px;
+    line-height: 1.5;
+    color: white;
+    background: white;
+    color: black;
+}
+
+
+/* === RESPONSIVE === */
+@media (max-width: 760px) {
+
+    .header-wrapper,
+    .main-wrapper,
+    .footer-wrapper {
+        margin: auto;
+        width: 95%;
+    }
+
+    .header-wrapper__nav {
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .header-wrapper__nav ul {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-wrapper__nav ul li {
+        margin: 10px auto;
+        border: 1px solid orange;
+        width: 100%;
+        padding: 5px;
+
+    }
+
+    .student p {
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+
+    }
+
+    input {
+        width: 100%;
+    }
+
+    form {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    img {
+        display: block;
+        max-width: 50%;
+        min-width: 50%;
+        height: auto;
+        text-align: center;
+        margin: 10px auto;
+    }
+
+
+    article {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+}

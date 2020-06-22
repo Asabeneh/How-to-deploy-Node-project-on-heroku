@@ -1,0 +1,17 @@
+/* === FOOTER === */
+footer {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    background: #f0f0f0;
+    align-items: center;
+    text-align: center;
+}
+
+small {
+    font-weight: 16px;
+    font-family: Montserrat;
+    font-weight: 300;
+}

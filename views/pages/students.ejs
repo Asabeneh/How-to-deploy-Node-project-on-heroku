@@ -1,0 +1,41 @@
+<%- include('../partials/head') %>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="header-wrapper">
+                <%- include('../partials/navbar') %>
+                <h3 class="page-title">Students: <%= students.length %></h3>
+            </div>
+        </header>
+        <main>
+            <div class="main-wrapper">
+                <div class="students">
+                    <% students.map(function(student){ %>
+                    <div class="student">
+                        <a href="/students/<%= student._id %>">
+                            <h4>
+                                <%= student.firstName %>
+                                <%= student.lastName %>
+                            </h4>
+                            <p>
+                                <%= student.age %>
+                            </p>
+                            <p>
+                                <%= student.country %>
+                            </p>
+                            <p>
+                                <%= student.skills.join(', ') %>
+                            </p>
+                        </a>
+                    </div>
+                    <% }) %>
+                </div>
+
+            </div>
+        </main>
+        <%- include('../partials/footer') %>
+    </div>
+</body>
+
+</html>

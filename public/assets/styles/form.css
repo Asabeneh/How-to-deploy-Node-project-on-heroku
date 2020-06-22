@@ -1,0 +1,57 @@
+/*=== FORM  === */
+.form-title {
+    text-align: center;
+    margin: 10px auto;
+}
+
+form {
+    width: 75%;
+    margin: auto;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    justify-content: center;
+
+}
+
+input {
+    width: 50%;
+    padding: 15px;
+    margin: 5px 0;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    border-radius: 2px;
+}
+
+input+p {
+    display: none;
+}
+
+input:focus {
+    padding: 15px;
+    margin: 5px 0;
+    border: 1px solid #794aa2;
+    border-radius: 2px;
+}
+
+textarea {
+    padding: 15px;
+    outline: none;
+    border: none;
+
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+textarea:focus {
+    border: 1px solid #794aa2;
+
+}
+
+textarea+p {
+    display: none;
+}

@@ -1,0 +1,80 @@
+<%- include('../partials/head') %>
+
+<body>
+
+    <div class="wrapper">
+        <header>
+            <div class="header-wrapper">
+                <%- include('../partials/navbar') %>
+                <h3 class="page-title">Edit student</h3>
+            </div>
+        </header>
+        <main>
+            <div class="main-wrapper">
+                <form action="/api/v.1.0/students/<%= student._id %>/edit" method="POST">
+
+                    <div class="form-group">
+                        <label for="firstName">First Name</label>
+                        <input
+                            id="firstName"
+                            type="text"
+                            name="firstName"
+                            value="<%= student.firstName %>"
+                            placeholder="First name" />
+
+                    </div>
+
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                        <input
+                            id="lastName"
+                            type="text"
+                            value="<%= student.lastName %>"
+                            name="lastName"
+                            placeholder="Last name" />
+
+                    </div>
+                    <div class="form-group">
+                        <label for="country">Country</label>
+                        <input id="country" type="text" name="country"
+                            value="<%= student.country %>" placeholder="Country" />
+
+                    </div>
+
+                    <div class="form-group">
+                        <label for="age">Age</label>
+                        <input
+                            type="text"
+                            id="age"
+                            name="age"
+                            value="<%= student.age %>"
+                            placeholder="Age" />
+
+                    </div>
+
+                    <div class="form-group">
+                        <label for="skills">Skills</label>
+                        <textarea type="text" id="skills" name="skills" cols="120"
+                            rows="5"><%= student.skills.join(', ') %></textarea>
+
+                    </div>
+                    <div class="form-group">
+                        <label for="bio">Your bio</label>
+                        <textarea id="bio" name="bio" cols="120" rows="10"
+                            placeholder="Bio"><%= student.bio %></textarea>
+
+                    </div>
+
+
+                    <button class="btn" type="submit" id="submit-button">Update</button>
+                </form>
+
+            </div>
+        </main>
+
+        <%- include('../partials/footer') %>
+    </div>
+
+</body>
+
+</html>

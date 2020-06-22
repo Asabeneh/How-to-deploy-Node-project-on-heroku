@@ -1,0 +1,16 @@
+.actions__wrapper {
+    margin: 15px auto;
+}
+
+.btn {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px 50px;
+    text-align: center;
+    cursor: pointer;
+    background: #794aa2;
+    color: white;
+    border: none;
+    font-size: 18px;
+   
+}

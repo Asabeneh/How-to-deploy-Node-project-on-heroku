@@ -1,0 +1,30 @@
+.header-wrapper__nav {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.brand-name {
+    color: white;
+    font-weight: 400;
+    font-size: 32px;
+background: #f0f0f0;
+ color:#666;
+    border-radius: 2px;
+    padding: 10px;
+    color:#666;
+}
+
+.header-wrapper__nav_list li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.page-title {
+    text-align: center;
+    padding: 10px;
+    font-weight: 300;
+    font-family: var(--font-family-heading);
+}
